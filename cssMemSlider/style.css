@@ -103,6 +103,11 @@ label:hover span {
   border: 3px solid #C00;
 }
 
+label:active span {
+  background: #C00 !important;
+  border: 3px solid #C00;
+}
+
 #radio-img1:checked ~ label[for=radio-img1] span,
 #radio-img2:checked ~ label[for=radio-img2] span,
 #radio-img3:checked ~ label[for=radio-img3] span,
